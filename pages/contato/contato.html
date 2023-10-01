@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="contato.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <a href="index.html">HOME</a> 
+    <a href="https://github.com/Mattvic12">GITHUB</a>
+    <a href="https://www.linkedin.com/in/matheus-rodriguees/">LINKEDIN</a>
+    <a href="pages/servicos/servicos.html">SERVIÇOS</a>
+    <a href="pages/contato/contato.html">CONTATO</a>
+  </header>
+  <h1 id="titulo-formulario">Formulário para Contato</h1>
+  <div id="formulario-cont">
+  <form action="processar_formulario.php" method="post"></form>
+    <label for="nome">Nome Completo:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="telefone">Telefone para Contato:</label>
+    <input type="text" id="telefone" name="telefone" required>
+
+    <label for="e-mail">Insira seu e-mail:</label>
+    <input type="text" id="e-mail" name="e-mail" required>
+
+    <label for="tipo">Tipo Pessoa:</label>
+    <div id="botoes-pfpj">
+      <input type="radio" name="tipo_pessoa" id="pessoa_fisica" value="pessoa_fisica" required>
+      <label for="pessoa_fisica">Pessoa Física</label>
+      <input type="radio" name="tipo_pessoa" id="pessoa_juridica" value="pessoa_juridica" required>
+      <label for="pessoa_juridica">Pessoa Jurídica</label>
+    </div>  
+    <label for="horario">Melhor horário para contato:</label>
+    <select name="horario" id="melhor_horario" required>
+      <option value="Manhã">Manhã</option>
+      <option value="Tarde">Tarde</option>
+      <option value="Noite">Noite</option>
+    </select>
+
+    <label for="servico">Tipo de serviço desejado:</label>
+    <select name="servico" id="tipo_servico">
+      <option value="desenvolvimento">Desenvolvimento de Landing Pages</option>
+      <option value="consutoria">Consultorias</option>
+      <option value="suporte">Suporte</option>
+    </select>
+
+    <label for="desricao">Insira informações adicionais do serviço desejado</label>
+    <textarea name="descricao" id="descricao" cols="30" rows="5"></textarea>
+    <div id="termos-botao">
+      <label for="termos">Aceito os termos e condições:</label>
+      <input type="checkbox" name="termos" id="termos"> 
+    </div> 
+    <input type="submit" value="Enviar Formulário">
+  </div>
+
+
+
+</body>
+</html>

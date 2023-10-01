@@ -2,12 +2,18 @@ body {
   padding: 0;
   margin: 0;
   border: 0;
-  background-color: rgb(153, 225, 245);
+  background-color: rgb(229, 225, 213);
 }
 
 #minha-foto {
   border-radius: 15px;
   width: 200px;
+}
+
+#groovy-banda1 {
+
+width: 100%;
+
 }
 
 #image-container {
@@ -23,6 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
@@ -30,10 +37,51 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #sobre-mim-paragraph {
 
   width: 900px;
   text-align: justify;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#resumo-academico {
+  width: 900px;
+  text-align: justify;
+}
+
+#eventos {
+  width: 900px;
+  text-align: justify;
+}
+
+#lista-materias {
+  width: 900px;
+  text-align: justify;
+}
+
+#futuro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+  text-align: justify;
+}
+
+
+header {
+  display: flex;
+  background-color: rgb(30, 44, 82);
+  height: 50px;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center; 
+}
+
+header a {
+  margin-right: 20px;
+  color: azure;
+  text-decoration: none;
 }
