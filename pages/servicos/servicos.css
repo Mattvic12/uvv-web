@@ -35,3 +35,9 @@ th {
   background-color: black;
   color: aliceblue;
 }
+
+#servico-titulo {
+  display: flex;
+  justify-content: center;
+  
+}
